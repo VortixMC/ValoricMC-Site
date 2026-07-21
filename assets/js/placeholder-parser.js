@@ -9,7 +9,7 @@ Placeholders:
 Data is fetched from the mcsrvstat.us public API
 */
 
-const MC_SERVER = "play.vortixmc.xyz:25569";
+const MC_SERVER = "play.vortixmc.xyz";
 const CACHE_TTL_MS = 30_000;
 const PLACEHOLDER_RE = /\{\{(\w+)\}\}/g;
 
